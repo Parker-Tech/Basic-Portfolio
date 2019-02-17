@@ -4,7 +4,8 @@
 }
 .header {
     background-color: white;
-    width: 100%;
+    /* width: 100%; */
+    display: block;
 }
 .name-box {
     float: left;
@@ -12,15 +13,33 @@
     color: white;
     background-color: #4aaaa5;
     padding: 0px 25px 0px 25px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    /* font-family: 'Georgia', Times, Times New Roman, serif; */
     font-size: 12px;
 }
 
 .nav-bar {
-    float: right;
+    /* float: right; */
+    text-align: center;
+    /* position: absolute; */
 }
 
+.nav-bar a {
+    float: right;
+    padding: 10px 16px;
+}
 
+img {
+    display: block;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
 #profilePicture {
     width: 150px;
