@@ -38,6 +38,7 @@
     padding: 10px 30px;
     background-color: white;
     margin-top: 10px;
+    line-height: 2;
 }
 
 .content-text {
@@ -57,7 +58,6 @@
     bottom: 0;
     /* min-width: calc(100vw + 50px); */
 }
-
 
 
 /* h6 {
@@ -124,7 +124,6 @@ h1, h2 {
     color: #4aaaa5;
 }
 p {
-    line-height: 2;
     margin-top: 0;
 }
 
@@ -141,6 +140,12 @@ hr {
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 15px 15px 0px 15px;
     margin-bottom: 0px;
+}
+
+#largeMsgBox {
+    width: 100%;
+    height: 250px;
+    overflow: scroll;
 }
 
 /* .name-box {
