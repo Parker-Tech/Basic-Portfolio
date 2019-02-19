@@ -34,15 +34,15 @@
 }
 
 
-.about-me {
+.content-wrapper {
     padding: 10px 30px;
     background-color: white;
     margin-top: 10px;
 }
 
-/* .about-me-text {
+.content-text {
     padding-top: 15px;
-} */
+}
 
 .footer {
     border-top: 8px solid #4aaaa5;
