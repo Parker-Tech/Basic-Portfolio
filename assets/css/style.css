@@ -39,10 +39,38 @@
     background-color: white;
     margin-top: 10px;
     line-height: 2;
+    overflow: auto;
 }
 
 .content-text {
     padding-top: 15px;
+}
+
+.content-text img {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.content-gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+.content-gallery img {
+    border: 1px solid #777;
+    width: 100%;
+    height: 180px;
+}
+
+.content-gallery img:hover {
+    border: 2px solid #4aaaa5;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 .footer {
@@ -96,13 +124,6 @@ li a:hover, a:active {
     background-color: #4aaaa5;
 
 }
-    
-img {
-    display: block;
-    float: left;
-    margin-right: 20px;
-
-}
 
 body {
     margin: 0;
@@ -144,43 +165,6 @@ hr {
 
 #largeMsgBox {
     width: 100%;
-    height: 250px;
-    overflow: scroll;
+    height: 150px;
+    overflow: auto;
 }
-
-/* .name-box {
-    float: left;
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5;
-    font-size: 12px;  
-    padding: 0px 25px 0px 25px;
-    position: initial;
-    height: 100%;
-} */
-
-/* .name-box {
-    float: left;
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5;
-    font-size: 12px;  
-    padding: 0px 25px 0px 25px;
-    position: initial;
-    height: 100%;
-} */
-
-/* .nav-bar {
-    float: right; 
-    text-align: center;
-     position: absolute;
-}
-
-.nav-bar a {
-    float: right;
-    padding: 0px 25px 0px 25px;
-}
-
-.nav-bar a:hover {
-    background-color: #666;
-} */
